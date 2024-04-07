@@ -40,5 +40,11 @@ window.addEventListener("load", function (e) {
   this.setTimeout(function () {
     loader.style.display = "none";
     afterLoad.classList.remove("after-load");
-  }, 5500);
+  }, 100);
+});
+
+const observer = new IntersectionObserver((e) => {
+  e.forEach((el) => {
+    console.log(el);
+  });
 });
