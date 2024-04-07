@@ -11,26 +11,15 @@
   align-items: center; */
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #word {
   margin-top: 250px;
   font-size: 100px;
   color: white;
   transition: color 0.3s ease-in-out;
-}
-
-@keyframes bgChange {
-  from {
-    background-color: gray; /* Initial background color */
-  }
-  to {
-    background-color: white; /* Final background color */
-  }
-}
-
-.bg-change-animation {
-  animation: bgChange 2s ease;
-  /*Animationdurationandtimingfunction*/
-  /* :-webkit-animation: bgChange 1s ease; */
 }
 
 #ball {
