@@ -3,7 +3,7 @@
 .loader {
   font-family: poppins;
   text-align: center;
-  background-color: #103579;
+  background-color: #184e77;
   overflow: hidden;
   height: 100vh;
   display: line;
@@ -17,9 +17,13 @@ body::-webkit-scrollbar {
 
 #word {
   margin-top: 250px;
-  font-size: 100px;
+  font-size: 100px;0
   color: white;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.03s ease-in-out;
+  -webkit-transition: color 0.03s ease-in-out;
+  -moz-transition: color 0.03s ease-in-out;
+  -ms-transition: color 0.03s ease-in-out;
+  -o-transition: color 0.03s ease-in-out;
 }
 
 #ball {
